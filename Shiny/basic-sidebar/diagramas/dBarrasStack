@@ -1,0 +1,12 @@
+import matplotlib.pyplot as plt
+
+conteoClases = titanic.groupby(["Pclass", "Survived"]).size().unstack()
+conteoClases.columns = ["Fallecidos", "Sobrevivientes"]
+
+conteoClases.plot(kind="bar", figsize=(20,10), color=["gray", "skyblue"], edgecolor="black")
+
+plt.title("DIAGRAMA DE BARRAS CON EL NÚMERO DE PERSONAS FALLECIDAS Y SOBREVIVIENTES DE CADA CLASE")
+plt.xlabel("Clase")
+plt.ylabel("NÚMERO DE PERSONAS")
+plt.xticks(rotation=0)
+plt.show()

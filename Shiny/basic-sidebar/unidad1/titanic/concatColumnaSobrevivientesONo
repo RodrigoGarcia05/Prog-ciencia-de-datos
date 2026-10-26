@@ -1,0 +1,7 @@
+titanicSobrevivientes = titanic [titanic["Survived"] == 1].copy()
+titanicSobrevivientes["Grupo"] = "Sobrevivientes"
+titanicNoSobrevivientes= titanic [titanic["Survived"] == 0].copy()
+titanicNoSobrevivientes["Grupo"] = "No Sobrevivientes"
+
+unionPasajeros = pd.concat([titanicSobrevivientes, titanicNoSobrevivientes], ignore_index = True)
+print(unionPasajeros[["PassengerId", "Survived", "Grupo"]].sample(10))
