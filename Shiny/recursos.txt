@@ -1,0 +1,9 @@
+COLORES 
+
+ui.page_opts(
+    title="Primer dashboard | Rodri García",
+    theme=theme.flatly, 
+)
+
+THEME: darkly, slate, flatly, cosmo.
+
