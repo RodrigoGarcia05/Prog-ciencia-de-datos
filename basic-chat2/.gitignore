@@ -1,0 +1,10 @@
+# Secretos (NUNCA subir a GitHub)
+.env
+
+# Entorno virtual y caché de Python
+.venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store

@@ -1,0 +1,28 @@
+{
+  "type": "app",
+  "id": "basic-chat",
+  "title": "Chat with Google Gemini",
+  "description": "A basic example of a chatbot with chatlas, shiny and Google Gemini.",
+  "next_steps": [
+    "Put your Google AI Studio API key in the `.env` file as GOOGLE_API_KEY.",
+    "Run the app with `shiny run app.py`."
+  ],
+  "follow_up": [
+    {
+      "type": "info",
+      "text": "Need help obtaining an API key?"
+    },
+    {
+      "type": "action",
+      "text": "Get one at https://aistudio.google.com/api-keys and see https://posit-dev.github.io/chatlas/reference/ChatGoogle.html"
+    },
+    {
+      "type": "info",
+      "text": "Want to learn more about AI chatbots?"
+    },
+    {
+      "type": "action",
+      "text": "Visit https://shiny.posit.co/py/docs/genai-chatbots.html"
+    }
+  ]
+}
