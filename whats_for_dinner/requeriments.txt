@@ -1,0 +1,8 @@
+shinyswatch
+shiny>=1.7.0
+openai
+dotenv
+faicons
+chatlas[anthropic]
+# Temporary workaround so connect cloud will pick up latest version
+httpcore>=1.0.8
