@@ -1,0 +1,4 @@
+shiny>=1.0.0,<2
+httpx
+python-dotenv
+tavily-python
